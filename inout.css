@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebeef1;
+    width: 100%;
+    height: 100vh;
+
+}
+button{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    color: #00a03f;
+    background: #ebeef1;
+    cursor: pointer;
+    box-shadow:  10px 10px 10px -1px rgba(10, 99, 169,0.16),
+                -10px -10px 10px -1px   rgba(255, 255, 255,0.70);
+
+            
+}
+button.btn{
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169,0.16),
+   inset -10px -10px 10px -1px   rgba(255, 255, 255,0.70);
+}
+
+@media screen and (max-width:768px) {
+
+    button{
+    font-size: 32px;
+    font-weight: 500;
+    gap: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    color: #00a03f;
+    background: #ebeef1;
+    cursor: pointer;
+    box-shadow:  10px 10px 10px -1px rgba(10, 99, 169,0.16),
+                -10px -10px 10px -1px   rgba(255, 255, 255,0.70);
+    
+            
+}
+}
